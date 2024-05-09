@@ -1,0 +1,15 @@
+body{
+  font-family: "Roboto";
+  margin: 0;
+}
+
+.header{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.header-right{
+  display: flex;
+  gap: 20px;
+}
