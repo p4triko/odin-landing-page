@@ -3,13 +3,22 @@ body{
   margin: 0;
 }
 
+ul{
+  list-style-type: none;
+}
+
+.top-container{
+  background-color: #1F2937;
+}
+
 .header{
   display: flex;
   justify-content: space-around;
   align-items: center;
+  color: white;
 }
 
-.header-right{
+.header-list{
   display: flex;
-  gap: 20px;
+  gap: 25px;
 }
