@@ -1,6 +1,8 @@
 body{
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   margin: 0;
+  box-sizing: border-box;
+  padding: 0;
 }
 
 ul{
@@ -11,6 +13,10 @@ ul{
   background-color: #1F2937;
 }
 
+.top-content{
+  display: flex;
+}
+
 .header{
   display: flex;
   justify-content: space-around;
@@ -18,7 +24,13 @@ ul{
   color: white;
 }
 
+.header-left{
+  font-weight: 500;
+  font-size: 24px;
+}
+
 .header-list{
   display: flex;
+  font-size: 16px;
   gap: 25px;
 }
