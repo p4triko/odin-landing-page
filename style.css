@@ -20,10 +20,6 @@ ul{
   background-color: #1F2937;
 }
 
-.top-content{
-  display: flex;
-}
-
 .header{
   display: flex;
   justify-content: space-between;
@@ -36,13 +32,18 @@ ul{
 .header-left{
   font-weight: 500;
   font-size: 24px;
+  margin-top: 12px;
 }
 
 .header-list{
   display: flex;
   font-size: 16px;
   gap: 25px;
+  margin-top: 12px;
 }
+
+
+/* HERO SECTION */
 
 .down-header-container{
   display: flex;
@@ -51,11 +52,9 @@ ul{
   padding: 0 250px;
 }
 
-
-/* HERO SECTION */
-
 .hero-section{
-  margin-bottom: 100px;
+  margin-bottom: 65px;
+  margin-right: 50px;
 }
 
 .hero-headline{
@@ -68,7 +67,10 @@ ul{
 .hero-text{
   color: #E5E7EB;
   font-size: 18px;
-  width: 480px;
+  width: 450px;
+  text-align: left;
+  font-weight: 300;
+  margin-bottom: 10px;
 }
 
 .hero-button{
@@ -78,6 +80,11 @@ ul{
   padding: 8px 24px;
   border-radius: 6px;
   cursor: pointer;
+  transition: background-color 0.15s;
+}
+
+.hero-button:hover{
+  background-color: #70a7ff;
 }
 
 .hero-ph-image{
@@ -159,7 +166,6 @@ ul{
 /* SIGN UP SECTION */
 
 .sign-up-container{
-  border: 1px solid black;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -193,6 +199,11 @@ ul{
   padding: 0 35px;
   border-radius: 8px;
   cursor: pointer;
+  transition: background-color 0.15s
+}
+
+.sign-up-button:hover{
+  background-color: #70a7ff;
 }
 
 
