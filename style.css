@@ -25,7 +25,7 @@ ul{
   justify-content: space-between;
   align-items: center;
   color: white;
-  padding: 0 250px;
+  padding: 0 350px;
   margin-bottom: 70px;
 }
 
@@ -42,15 +42,15 @@ ul{
   margin-top: 12px;
 }
 
-
-/* HERO SECTION */
-
 .down-header-container{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 250px;
+  padding: 0 350px;
 }
+
+
+/* HERO SECTION */
 
 .hero-section{
   margin-bottom: 100px;
@@ -89,7 +89,6 @@ ul{
 }
 
 .hero-ph-image{
-  background-color: gray;
   width: 700px;
   height: 250px;
   margin-bottom: 100px;
@@ -115,10 +114,10 @@ ul{
  display: flex;
  text-align: center;
  justify-content: center;
- align-items: center;
  gap: 35px;
  margin-bottom: 100px;
 }
+
 
 .info-image-box{
   width: 150px;
@@ -126,6 +125,13 @@ ul{
   border: 3px solid #3882F6;
   border-radius: 16px;
   margin-bottom: 10px;
+  object-fit: contain;
+  overflow: hidden;
+}
+
+.info-img{
+  height: 100%;
+  width: 100%;
 }
 
 .info-image-text{
