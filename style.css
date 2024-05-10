@@ -53,8 +53,9 @@ ul{
 }
 
 .hero-section{
-  margin-bottom: 65px;
+  margin-bottom: 100px;
   margin-right: 50px;
+  height: 250px;
 }
 
 .hero-headline{
