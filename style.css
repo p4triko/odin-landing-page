@@ -1,3 +1,5 @@
+/* GENERAL STYLING */
+
 body{
   font-family: "Roboto", sans-serif;
   margin: 0;
@@ -8,6 +10,8 @@ body{
 ul{
   list-style-type: none;
 }
+
+/* TOP CONTAINER */
 
 .top-container{
   background-color: #1F2937;
@@ -81,6 +85,8 @@ ul{
 }
 
 
+/* INFO CONTAINER */
+
 .info-container{
   border: 2px solid black;
 }
@@ -93,4 +99,28 @@ ul{
   justify-content: center;
   margin-top: 25px;
   margin-bottom: 25px;
+}
+
+.info-images{
+ display: flex;
+ text-align: center;
+ justify-content: center;
+ align-items: center;
+ gap: 35px;
+ margin-bottom: 100px;
+}
+
+.info-image-container{
+}
+
+.info-image-box{
+  width: 150px;
+  height: 150px;
+  border: 3px solid #3882F6;
+  border-radius: 16px;
+}
+
+.info-image-text{
+  color: rgb(100, 100, 100);
+  width: 150px;
 }
