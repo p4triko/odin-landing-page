@@ -11,7 +11,8 @@ ul{
   list-style-type: none;
 }
 
-/* TOP CONTAINER */
+
+/* TOP SECTION */
 
 .top-container{
   background-color: #1F2937;
@@ -85,11 +86,7 @@ ul{
 }
 
 
-/* INFO CONTAINER */
-
-.info-container{
-  border: 2px solid black;
-}
+/* INFO SECTION */
 
 .info-header{
   color: #1F2937;
@@ -123,4 +120,11 @@ ul{
 .info-image-text{
   color: rgb(100, 100, 100);
   width: 150px;
+}
+
+
+/* QUOTE SECTION */
+
+.quote-container{
+  border: 1px solid black;
 }
