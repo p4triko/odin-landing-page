@@ -107,8 +107,8 @@ ul{
   font-weight: 700;
   display: flex;
   justify-content: center;
-  margin-top: 25px;
-  margin-bottom: 25px;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 .info-images{
@@ -125,6 +125,7 @@ ul{
   height: 150px;
   border: 3px solid #3882F6;
   border-radius: 16px;
+  margin-bottom: 10px;
 }
 
 .info-image-text{
